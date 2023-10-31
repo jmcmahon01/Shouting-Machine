@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Shouting Machine</title>
 </head>
+
 <body>
-  
+  <h1>Feel like you need to shout? Type whatever word or phrase you want to shout into the field and this will do the
+    shouting for you!</h1>
+  <form>
+    <label for="personInput">A word or phrase</label>
+    <input id="personInput" type="text" name="personInput">
+  </form>
+  <div id="shout" class="hidden">
+    <p class = "upperCase"> <span id="person1a"> </span> </p>
+  </div>
 </body>
+
 </html>
